@@ -1,0 +1,10 @@
+.card {
+  img {
+    min-height: 200px;
+    min-width: 300px;
+    transition: transform 100ms ease-in;
+    &:hover {
+      transform: scale(1.07);
+    }
+  }
+}
